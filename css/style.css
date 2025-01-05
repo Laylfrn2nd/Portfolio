@@ -215,6 +215,7 @@ textarea::placeholder {
 
 .greet {
     font-size: 35px;
+    color: rgb(199, 197, 194);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -222,6 +223,7 @@ textarea::placeholder {
 
 .small-intro {
     font-size: 27px;
+    color: rgb(199, 197, 194);
     margin-bottom: 30px;
     width: 505px;
 }
