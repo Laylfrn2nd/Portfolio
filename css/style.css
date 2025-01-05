@@ -1,0 +1,327 @@
+/*
+    HOME PAGE
+*/
+.brand-name {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.pro-color {
+    color: rgb(30, 30, 30);
+}
+
+.logo {
+    width: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    object-position: center;
+    display: inline-block;
+}
+
+.portfolio-name {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 600px;
+}
+
+.introduction {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 180px;
+    margin-right: 500px;
+}
+
+.greeting {
+    font-size: 60px;
+    color: rgb(199, 197, 194);
+    font-weight: 700;
+}
+
+.name-intro {
+    font-size: 60px;
+    color: rgb(199, 197, 194);
+}
+
+.status {
+    font-size: 60px;
+    color: rgb(199, 197, 194);
+}
+
+.horizontal-adjustment {
+    border: 2px solid rgb(199, 197, 194);
+    width: 90%;
+    margin-left: 0;
+}
+
+.horizontal-positioning {
+    margin-top: 50px;
+}
+
+.objective {
+    font-size: 35px;
+    color: rgb(199, 197, 194);
+    width: 1000px;
+}
+
+.objective-positioning {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.profile-position {
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.profile-picture {
+    border-radius: 300px;
+    width: 600px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sample {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.nav-manipulation {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-left: 120px;
+}
+
+.nav-manipulation:hover {
+    color: white;
+}
+
+.nav-manipulation:active {
+    color: black;
+}
+
+#bottom-line {
+    border: 2px solid rgb(199, 197, 194);
+    width: 100%;
+    border-radius: 3px;
+}
+
+/*
+    ABOUT PAGE
+*/
+
+.image-background {
+    background-image: linear-gradient(to bottom, rgba(159, 38, 0, 1), rgba(165, 40, 0, 0%));
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+#about-profile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.resume-button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    border: none;
+    margin-left: 330px;
+    transition: opacity 0.25s;
+}
+
+.resume-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container-1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 250px;
+}
+
+.info {
+    height: 600px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgba(159, 38, 0, 1), rgba(165, 40, 0, 0%));
+}
+
+.greet {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.small-intro {
+    font-size: 27px;
+    margin-bottom: 30px;
+    width: 505px;
+}
+
+.hr {
+    border: 5px solid rgb(199, 197, 194);
+    border-radius: 4px;
+}
+
+.about-container {
+    margin-bottom: 0;
+}
+
+.arrow-gif {
+    width: 50px;
+    margin-left: 800px;
+}
+
+/*
+    CONTACT PAGE
+*/
+
+.contact-container {
+    height: 950px;
+}
+
+.contact-content {
+    width: 1050px;
+    display: inline-block;
+}
+
+#contact-line {
+    border: 2px solid rgb(199, 197, 194);
+    width: 90%;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+
+.info-container {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.contact-logo {
+    width: 80px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(250, 227, 227);
+}
+
+.form-background {
+    background-image: linear-gradient(to bottom, rgba(159, 38, 0, 1), rgba(165, 40, 0, 0%));
+    height: 650px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    padding: 80px;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.inputs {
+    display: block;
+    font-size: 30px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    color: black;
+}
+
+#comment {
+    background: linear-gradient(180deg, #32FFF3 0%, rgba(80, 255, 244, 0.06) 100%);
+    font-size: 25px;
+    height: 200px;
+    width: 465px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 20px;
+    display: block;
+}
+
+#fullname {
+    background: linear-gradient(90.1deg, rgba(80, 255, 244, 0.31) 0.08%, #32FFF3 99.92%, #32FFF3 99.92%);
+}
+
+#email {
+    background: linear-gradient(90deg, #32FFF3 0%, rgba(80, 255, 244, 0) 100%);
+}
+
+#subject {
+    background: linear-gradient(90.1deg, rgba(80, 255, 244, 0.31) 0.08%, #32FFF3 99.92%, #32FFF3 99.92%);
+}
+
+.gif-cat {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 58px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.gif-cat-inverse {
+    background-color: white;
+    width: 70px;
+    vertical-align: middle;
+    margin-right: 58px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.submit-button {
+    background: linear-gradient(90deg, #32ff76 0%, rgba(0, 70, 66, 0.37) 100%);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.reset-button {
+    background: linear-gradient(90deg, rgba(0, 70, 66, 0.37) 0%, #ff3232 100%);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 23px;
+    font-weight: 700;
+    margin-right: 58px;
+    border-radius: 10px;
+    border: none;
+}
